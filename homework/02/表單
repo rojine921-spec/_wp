@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>問卷調查表</title>
+<style>
+body{
+    font-family: Arial;
+    margin:40px;
+}
+form{
+    width:600px;
+}
+fieldset{
+    margin-bottom:20px;
+    padding:15px;
+}
+label{
+    display:block;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>學生問卷調查表</h1>
+
+<form action="#" method="post">
+
+<input type="hidden" name="form_id" value="survey001">
+
+<fieldset>
+<legend>基本資料</legend>
+
+<label>姓名:
+<input type="text" name="name" placeholder="請輸入姓名">
+</label>
+
+<label>密碼:
+<input type="password" name="password">
+</label>
+
+<label>Email:
+<input type="email" name="email">
+</label>
+
+<label>電話:
+<input type="tel" name="phone">
+</label>
+
+<label>年齡:
+<input type="number" name="age" min="10" max="100">
+</label>
+
+</fieldset>
+
+
+<fieldset>
+<legend>日期相關</legend>
+
+<label>生日:
+<input type="date" name="birthday">
+</label>
+
+<label>起床時間:
+<input type="time" name="time">
+</label>
+
+<label>面試時間:
+<input type="datetime-local" name="meeting">
+</label>
+
+<label>畢業月份:
+<input type="month" name="grad_month">
+</label>
+
+<label>第幾週:
+<input type="week" name="week">
+</label>
+
+</fieldset>
+
+
+<fieldset>
+<legend>選擇題</legend>
+
+<label>性別:</label>
+<input type="radio" name="gender" value="male"> 男
+<input type="radio" name="gender" value="female"> 女
+<input type="radio" name="gender" value="other"> 其他
+
+<label>興趣:</label>
+<input type="checkbox" name="hobby" value="game"> 打遊戲
+<input type="checkbox" name="hobby" value="music"> 聽音樂
+<input type="checkbox" name="hobby" value="movie"> 看電影
+<input type="checkbox" name="hobby" value="sport"> 運動
+
+<label>最喜歡的顏色:
+<input type="color" name="color">
+</label>
+
+<label>滿意度:
+<input type="range" name="score" min="0" max="10">
+</label>
+
+</fieldset>
+
+
+<fieldset>
+<legend>其他資料</legend>
+
+<label>個人網站:
+<input type="url" name="website">
+</label>
+
+<label>搜尋關鍵字:
+<input type="search" name="search">
+</label>
+
+<label>上傳照片:
+<input type="file" name="photo">
+</label>
+
+<label>系所:</label>
+<select name="department">
+<option>資訊工程</option>
+<option>電機工程</option>
+<option>企業管理</option>
+<option>其他</option>
+</select>
+
+<label>意見回饋:</label>
+<textarea name="comment" rows="5" cols="50"></textarea>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="送出問卷">
+<input type="reset" value="重新填寫">
+<input type="button" value="普通按鈕">
+
+</form>
+
+</body>
+</html>
