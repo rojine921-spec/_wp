@@ -289,7 +289,8 @@ http://localhost:3000
 
 # 專案畫面
 
-（可放網站截圖）
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/6f12f9d0-a029-4e8a-941d-0e90ef4e5413" />
+
 
 ---
 
