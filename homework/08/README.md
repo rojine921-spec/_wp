@@ -4,12 +4,12 @@
 
 ---
 
-# AI 輔助開發
+# ChatGPT AI 輔助開發
 
 本專案在開發過程中，
 使用 AI 工具協助完成部分程式開發與學習。
 
-AI 協助內容包含：
+ChatGPT AI 協助內容包含：
 
 - Node.js 與 Express 學習
 - API 撰寫協助
