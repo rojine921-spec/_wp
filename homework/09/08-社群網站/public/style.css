@@ -1,0 +1,55 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.post-form{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#334155;
+    color:white;
+}
+
+textarea{
+    height:120px;
+}
+
+button{
+    margin-top:15px;
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    background:#3b82f6;
+    color:white;
+    cursor:pointer;
+}
+
+.post{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
